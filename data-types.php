@@ -1,4 +1,5 @@
 <?php
+//Convert to Integer
 function convertToInt(string $str): int
 {
     if ($str)
@@ -13,6 +14,7 @@ function convertToInt(string $str): int
 var_dump(convertToInt("123"));
 echo '<br>';
 
+//Convert to String
 function convertToStr(int $num): string
 {
     if ($num)
@@ -27,7 +29,7 @@ function convertToStr(int $num): string
 var_dump(convertToStr(123));
 echo '<br>';
 
-
+//Convert to Float
 function convertToFloat(float $float): float
 {
     if ($float)
@@ -42,7 +44,7 @@ function convertToFloat(float $float): float
 var_dump(convertToFloat(123.239999));
 echo '<br>';
 
-
+//Convert to Bool
 function convertToBool(string $bool): bool
 {
     if ($bool)
@@ -57,6 +59,7 @@ function convertToBool(string $bool): bool
 var_dump(convertToBool('true'));
 echo '<br>';
 
+//Convert to Array
 function convertToArray(string $arr): array
 {
     if ($arr)
@@ -72,7 +75,7 @@ function convertToArray(string $arr): array
 var_dump(convertToArray('Hello Guys!'));
 echo '<br>';
 
-
+//Convert to Null
 function convertToNull(int $notNull): ?int {
     if ($notNull < 100)
     {
