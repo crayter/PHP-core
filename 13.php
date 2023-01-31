@@ -1,6 +1,6 @@
 <?php
 
-function rect_area(int $length,int $width) 
+function rect_area(int $length,int $width)
 {
     $area = $length * $width;
     echo "Area Of Rectangle with length " . $length . " & width " . $width . " = " . $area;
