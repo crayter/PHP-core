@@ -30,7 +30,7 @@ var_dump(convertToStr(123));
 echo '<br>';
 
 //Convert to Float
-function convertToFloat(float $float): float
+function convertToFloat(string $float): float
 {
     if ($float)
     {
@@ -41,7 +41,7 @@ function convertToFloat(float $float): float
     }
 
 }
-var_dump(convertToFloat(123.239999));
+var_dump(convertToFloat("123.239999"));
 echo '<br>';
 
 //Convert to Bool
@@ -83,5 +83,6 @@ function convertToNull(int $notNull): ?int {
     }
     return null;
 }
-var_dump(convertToNull(200));
+var_dump(convertToNull(150));
 echo '<br>';
+

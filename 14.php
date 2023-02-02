@@ -1,10 +1,4 @@
 <?php
-//You need to write a program in PHP to remove a specific element by value from an array using a PHP program.
-//
-//Instructions:
-//Take an array with a list of month names.
-//Take a variable with the name of value to be deleted.
-//You can use PHP array functions or foreach loop.
 
 $months = [
     "January",

@@ -3,25 +3,25 @@ $day = 7;
 
 switch ($day) {
     case 1:
-        echo "Monday";
+        echo "Today is - Monday";
         break;
     case 2:
-        echo "Tuesday";
+        echo "Today is - Tuesday";
         break;
     case 3:
-        echo "Wednesday";
+        echo "Today is - Wednesday";
         break;
     case 4:
-        echo "Thursday";
+        echo "Today is - Thursday";
         break;
     case 5:
-        echo "Friday";
+        echo "Today is - Friday";
         break;
     case 6:
-        echo "Saturday";
+        echo "Today is - Saturday";
         break;
     case 7:
-        echo "Sunday";
+        echo "Today is - Sunday";
         break;
     default:
         echo $day;
